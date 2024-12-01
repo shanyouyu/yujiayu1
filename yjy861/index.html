@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>作业</title>
+        <style>
+            .background-image1 {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-image: url('image/photo3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+            .background-image2 {
+  position: relative;
+  height: 900px;
+  width: 100%;
+  background-image: url('image/photo1.jpg');
+  background-size: cover;
+  background-position: center;
+            }
+            .background-image::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color:rgba(255, 255, 255, 0.1)
+  z-index=0;
+}
+            .center-image img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+            .float-image {
+    float: left;
+    margin-right: 10px;
+  }
+            .no-underline {
+    text-decoration: none;
+  }
+            .custom-color-link {
+    color: rgb(233, 4, 249);
+  }
+            .border-box {
+  border: 1px solid rgb(237, 229, 229);
+  border-radius: 7px;
+}
+            a{
+    position:relative;
+    z-index: 2;
+
+}
+        </style>
+    </head>
+    <body>
+      <div class="background-image2 border-box">
+        <header>
+        <h1>我的网站标题</h1>
+        <nav>
+            <ul>
+                <li><a href="web/page1.html">·七元素·</a></li>
+                <li><a href="web/page2.html">·七神·</a></li>
+                <li><a href="web/page3.html">·七国·</a></li>
+                <li><a href="web/page4.html">·七天神像·</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1>提瓦特世界简要说明</h1>
+        <div class="center-image">
+        <img src="image/photo2.jpg" width="200" alt="原神"/>
+        </div>
+        <div class="background-image1 border-box">
+        <p>在<a href="web/page1.html" class="no-underline">七种元素</a>交汇的大陆——「提瓦特」，
+          每个人都可以成为神。你从世界之外漂流而来，降临大地。在这广阔的世界中，你自由旅行、结识同
+          伴、寻找<a href="web/page2.html" class="no-underline">掌控尘世元素的七神</a>，直到与
+          分离的血亲重聚，在终点见证一切旅途的沉淀。维系者正在死去，创造者尚未到来。面对无法掌控
+          的境遇，人类总会喟叹自身的无力…… 但在人生最陡峭的转折处，若有凡人的渴望达到极致，神明的
+          视线就将投射而下。当失散的双子在尘沙中重聚、世界的谜底在「神之眼」中尽数显现之时 —— 旅行
+          者，你将去往何方？《原神》是由米哈游自研的一款全新开放世界冒险RPG。你将在游戏中探索一个
+          被称作「提瓦特」的幻想世界。在这广阔的世界中，你可以踏遍<a href=web/page3.html>七国</a>，
+          邂逅性格各异、能力独特的、能力独特的同伴，与他们一同对抗强敌，踏上寻回血亲之路；也可以不
+          带目的地漫游，沉浸在充满 生机的世界里，让好奇心驱使自己发掘各个角落的奥秘……
+        </p>
+        </div>
+      </div>
+      <aside>
+        <p>神之眼：拥有神之眼的人可以以神之眼为媒介，使用元素之力。使用的元
+          素之力会受到内核属性的影响。面对无法掌控的境遇时，人们总是喟叹自
+          身的无力。但在人生最陡峭的转折处，若有凡人的渴望达到极致，神明的
+          视线就将投射而下。这就是神之眼，受神认可者所获的外置魔力器官，用
+          以引导元素之力。 高天之上是神的领域。神之眼的持有者在地上行走，当
+          他们离世时，受选者将升入天空。 将某一瞬间的渴望贯彻一生，到底是好
+          事还是坏事呢? 每一位神之眼的拥有者，都是有资格成神的人，因此被称
+          作“原神”，拥有登上天空岛的资格。 ——这是只有真正神灵才知道的秘密。</p>
+      </aside>
+    </body>
+</html>
